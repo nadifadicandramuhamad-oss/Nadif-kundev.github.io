@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: #1E3A8A;
+    color:white ;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: white 3px solid;
+    text-align: center; 
+}
+
+header.container{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: #ece6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline;
+    padding: 0 2px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background: #3B82F6;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: #ccc 1px solid;
+}
+
+section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.layanan-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+.layanan-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+.container p{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background: #1E3A8A;
+    color: #fff;
+    height: 30%;
+}
+
+.container ul{
+    text-align: center;
+}
+
+
+    @media(max-width: 768px) {
+        header .container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        header nav ul {
+            padding-top: 10px;
+        }
+
+        header li {
+            display: block;
+            padding: 10px 0;
+        }
+
+        .layanan-list {
+            flex-direction: column;
+        }
+    }*
+
+img{
+    height: auto;
+    width: 30%;
+}
+
+.map iframe{
+    display: block;
+    margin: 0 auto;
+     width: 600px;
+}
